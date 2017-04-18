@@ -17,6 +17,7 @@ dependencies {
     compile "io.reactivex:rxjava:$rootProject.rxjavaVersion"
     compile "io.reactivex:rxandroid:$rootProject.rxandroidVersion"
     compile "com.squareup.sqlbrite:sqlbrite:$rootProject.sqlbriteVersion"
+    compile "com.google.code.gson:gson:$rootProject.gsonVersion"
 
     testCompile 'junit:junit:4.12'
 }
