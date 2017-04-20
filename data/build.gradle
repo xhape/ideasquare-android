@@ -19,5 +19,8 @@ dependencies {
     compile "com.squareup.sqlbrite:sqlbrite:$rootProject.sqlbriteVersion"
     compile "com.google.code.gson:gson:$rootProject.gsonVersion"
 
+    compile "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofitVersion"
+
     testCompile 'junit:junit:4.12'
 }
