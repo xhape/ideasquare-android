@@ -3,6 +3,9 @@ package com.xhapesolultions.data.source.discourse.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * Created by Angelo Javonitalla on 20/04/2017.
+ */
 public class PrimaryGroup {
 
   @SerializedName("flair_bg_color")
