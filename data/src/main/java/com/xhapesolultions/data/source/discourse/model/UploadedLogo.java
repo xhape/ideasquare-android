@@ -11,6 +11,7 @@ public class UploadedLogo {
   @SerializedName("id")
   @Expose
   private Integer id;
+
   @SerializedName("url")
   @Expose
   private String url;

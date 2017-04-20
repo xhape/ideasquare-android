@@ -11,18 +11,23 @@ public class ActionsSummary {
   @SerializedName("id")
   @Expose
   private Integer id;
+
   @SerializedName("count")
   @Expose
   private Integer count;
+
   @SerializedName("acted")
   @Expose
   private Boolean acted;
+
   @SerializedName("can_undo")
   @Expose
   private Boolean canUndo;
+
   @SerializedName("can_act")
   @Expose
   private Boolean canAct;
+  
   @SerializedName("hidden")
   @Expose
   private Boolean hidden;

@@ -12,9 +12,11 @@ public class TopicResult {
   @SerializedName("primary_groups")
   @Expose
   private List<PrimaryGroup> primaryGroups = null;
+
   @SerializedName("topic_list")
   @Expose
   private TopicList topicList;
+
   @SerializedName("users")
   @Expose
   private List<User> users = null;
